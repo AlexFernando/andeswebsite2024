@@ -93,8 +93,24 @@ const Root = ({ state, actions }) => {
                 learn = 'CONOCER'
                 explore = 'EXPLORAR'
             }
+
+
+            // Google Analytics pageview tracking
+            const pageview = () => {
+                const currentPage = state.router.link;
+                const pageTitle = currentPage;
+        
+                actions.analytics.pageview({
+                link: currentPage,
+                title: pageTitle
+                });
+            };
+        
+            // Initial pageview
+            pageview();
+
           
-          }, [])
+          }, [state.router.link])
 
     return (
         <>

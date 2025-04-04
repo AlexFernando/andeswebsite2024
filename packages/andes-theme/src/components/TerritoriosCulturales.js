@@ -319,13 +319,13 @@ const TerritoriosCulturales = ({state,actions}) => {
             <SubSectionTitle>{pageBiocultural.acf.additional_resources_title}</SubSectionTitle>
             
             <AditionalContainer>
-                <a href="https://www.iied.org/" target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_1.sizes.medium}/></a>
+                <a href={pageBiocultural.acf.img_additional_1.caption} target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_1.sizes.medium}/></a>
             
-                <a href="https://www.iied.org/" target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_2.sizes.medium}/></a>
+                <a href={pageBiocultural.acf.img_additional_2.caption} target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_2.sizes.medium}/></a>
             
-                <a href="https://www.iied.org/" target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_3.sizes.medium}/></a>
+                <a href={pageBiocultural.acf.img_additional_3.caption} target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_3.sizes.medium}/></a>
             
-                <a href="https://www.iied.org/" target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_4.sizes.medium}/></a>
+                <a href={pageBiocultural.acf.img_additional_4.caption} target="_blank" rel="noopener" ><AditionalContainerImage src={pageBiocultural.acf.img_additional_4.sizes.medium}/></a>
             </AditionalContainer>
         </MarginTopContainer>
  

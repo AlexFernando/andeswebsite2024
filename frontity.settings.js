@@ -98,6 +98,20 @@ const settings = [
           }
         }
       },
+
+      {
+        "name": "@frontity/google-analytics",
+        "state": {
+          googleAnalytics: {
+            trackingIds: ["G-E6RFXK4XT1", "G-Y04MSSH1C9"],
+          },
+          analytics: {
+            pageviews: { googleAnalytics: true },
+            events: { googleAnalytics: true }
+          },
+        },
+      },
+
       "@frontity/tiny-router",
       "@frontity/html2react",
       "@aamodtgroup/frontity-contact-form-7"
@@ -109,7 +123,7 @@ const settings = [
   {
     "name": "andes-headless-spanish",
     "match": [".*https?:\/\/www.andes.org.pe\/es-(.*)?$"],
-    // "match": [".*https?:\/\/localhost:3000\/es-(.*)?$"],
+    //"match": [".*https?:\/\/localhost:3000\/es-(.*)?$"],
     "state": {
       "frontity": {
         "url": "https://andes.org.pe/es-",
@@ -200,6 +214,23 @@ const settings = [
           },      
         }
       },
+
+      {
+        "name": "@frontity/google-analytics",
+        "state": {
+          googleAnalytics: {
+            trackingIds: ["G-E6RFXK4XT1", "G-Y04MSSH1C9"],
+          },
+
+          analytics: {
+            pageviews: { googleAnalytics: true },
+            events: { googleAnalytics: true }
+          },
+        },
+
+        
+      },
+
        "@frontity/tiny-router",
       "@frontity/html2react",
       "@aamodtgroup/frontity-contact-form-7"

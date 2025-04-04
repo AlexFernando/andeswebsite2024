@@ -3,7 +3,7 @@ import {css, styled } from "frontity";
 import {faMapMarkedAlt, faStreetView, faMailBulk} from '@fortawesome/free-solid-svg-icons';
 import {ButtonAction} from './bgImage'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faInstagram, faYoutube, faFacebookSquare} from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faInstagram, faYoutube, faFacebookSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import LinkButton from './LinkButton';
 
 //contact footer
@@ -106,9 +106,10 @@ const Contact = () => {
             
                 <ul>
                         <li><a href="https://www.facebook.com/AsociacionparalaNaturalezayDesarrolloSostenible/" alt="Share on Twitter" aria-label="Link to Facebook" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookSquare}/></a></li>
-                        <li><a href="https://twitter.com/asociacionandes" alt="Share on Twitter" aria-label="Link to Twitter" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter}/></a></li>
-                        <li><a href="https://www.instagram.com/asociacion.andes/" alt="Share on Twitter" aria-label="Link to Instagram" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCGxjQLt0D5iC2xt_rgMg8IA/featured" alt="Share on Twitter" aria-label="Link to Youtube" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube}/></a></li>
+                        <li><a href="https://twitter.com/asociacionandes" alt="Share on Twitter" aria-label="Link to Twitter" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faXTwitter}/></a></li>
+                        <li><a href="https://www.instagram.com/asociacionandes_/" alt="Share on Twitter" aria-label="Link to Instagram" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/></a></li>
+                        <li><a href="https://www.youtube.com/@videosandes4733" alt="Share on Twitter" aria-label="Link to Youtube" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faYoutube}/></a></li>
+                        <li><a href="https://www.linkedin.com/company/asociación-andes/" alt="Share on Linkendin" aria-label="Link to Linkedin" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a></li>
                 </ul>
 
                 <ul>
